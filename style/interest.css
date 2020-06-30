@@ -1,0 +1,221 @@
+/* Interests accordion styling ONLY (nav and content versions)
+Awaiting merge with main CSS file on approval */
+
+#interests > .panel-default > .panel-heading {
+    background-color: #02426e !important;
+    background-image: none;
+    border-radius: 0 !important;
+    border: 0 !important;
+    text-transform: uppercase !important;
+}
+
+#interests > .panel-default > .panel-heading a {
+    color: #fff;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 300 !important;
+    font-size: 16px !important;
+}
+
+#interests > .panel-default .panel-default > .panel-heading a,
+.panel-title {
+    color: #fff;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+}
+
+#interests > .panel-default .panel-default > .panel-heading a i {
+    margin-right: 15px;
+}
+
+#interests > .panel-default .panel-default .panel-heading {
+    background-color: #ac5e92 !important;
+    background-image: none;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.panel-sub .panel-body {
+    background-color: #ac5e92 !important;
+}
+
+#interests > .panel,
+#interests .panel-default {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+#interests .panel-group {
+    margin-bottom: 0 !important;
+    border: 0 !important;
+}
+
+#interests .panel-body {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+#interests .panel {
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+@media all and (min-width: 768px) {
+    #interests .panel-sub {
+        margin-left: 120px !important;
+    }
+}
+
+#interests .panel-body ul {
+    list-style-type: none;
+    background: #fff;
+    padding: 10px 0 10px 15px;
+}
+
+@media all and (min-width: 768px) {
+    #interests .panel-body ul {
+        margin: 0 0 0 25px;
+    }
+}
+
+#interests .panel-body ul li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+@media all and (max-width: 768px) {
+    #interests .panel-body ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #interests .panel-body ul li:first-child {
+        margin-left: 0;
+    }
+}
+
+#interests .panel-body ul li a i {
+    margin-right: 10px;
+}
+
+#interests .panel-body ul li a {
+    color: #555;
+    font-size: 12px;
+}
+
+i.showhide {
+    float: right;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.interests_header {
+    height: 100px;
+    background-color: #29709c;
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 15px;
+}
+
+.interests_header h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.interests_header a {
+    color: #fff;
+}
+
+.interests_header button {
+    color: #fff;
+    font-size: 12px;
+}
+
+.listed a {
+    margin-right: 25px;
+}
+
+@media all and (max-width: 768px) {
+    .interests_header h4,
+    .listed {
+        margin-bottom: 25px;
+    }
+
+    .interests_header {
+        height: auto;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+    .change {
+        text-align: right;
+    }
+}
+
+.categories_nav dt {
+    text-align: left;
+    background-color: #02426e;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.categories_nav dd {
+    background-color: #ac5e92;
+    color: #fff;
+}
+
+.categories_nav dd ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 768px) {
+    .categories_nav dd ul {
+        margin-left: 160px;
+    }
+}
+
+.categories_nav dd ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+@media all and (max-width: 768px) {
+    .categories_nav dd ul li a {
+        line-height: 25px;
+    }
+}
+
+.categories_nav dd a {
+    color: #fff;
+}
+
+.categories_nav dt,
+.categories_nav dd {
+    padding: 20px;
+}
+
+@media all and (min-width: 768px) {
+    .categories_nav dd {
+        padding-bottom: 0;
+    }
+
+    .dl-horizontal dd {
+        margin-left: 0;
+    }
+}
+
+.dl-horizontal {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.categories_nav dt a {
+    color: #fff;
+}

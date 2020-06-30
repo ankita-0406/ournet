@@ -1,0 +1,96 @@
+/* * {
+        font-family: "Lato", sans-serif;
+        padding: 7px;
+        box-sizing: border-box;
+        margin: 0px;
+    } */
+
+.modal-content {
+  background-color: #edf2f8;
+  
+  /* margin-top: 300px; */
+}
+
+.privacy-policy-hading {
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+h5 {
+  color: #337ab7;
+}
+
+p {
+  color: #a3a3a3;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.fade {
+  transition: none;
+  opacity: 1;
+}
+
+h6 {
+  color: #000000;
+}
+
+.css-1dkwqii {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-top: 79px;
+  border: 2px solid;
+}
+
+.MuiSlider-thumb {
+  width: 0;
+  height: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.MuiButton-label {
+  padding: 0;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  /* margin-top: 9px; */
+}
+/* .modal-footer {
+    margin-top: -36px;
+  } */
+
+.successAlert {
+  width: 100%;
+}
+
+/* .button-modal{
+  margin-top:2rem;
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+} */
+
+.CSRModal{
+  width: 80%;
+  max-width: none !important;
+  /* margin-top:0 !important ; */
+  /* margin: auto !important; */
+  }
+
+  @media only screen and (max-width: 480px) {
+
+    .modal-content {
+      background-color: #edf2f8;
+      /* margin-top: 300px; */
+      width:20%
+    }
+
+    
+
+  }
+
+
+

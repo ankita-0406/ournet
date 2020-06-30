@@ -1,0 +1,129 @@
+/********Event Page Css ************/
+
+.eventHeaderBtn {
+    text-align: center;
+    font: Bold 16px/19px Lato;
+    letter-spacing: 0;
+    color: #fff;
+    width: 190px;
+    height: 70px;
+    line-height: 70px;
+    background: #4FBFAE;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.eventSec {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    -webkit-column-gap: normal;
+    -moz-column-gap: normal;
+    column-gap: normal;
+    padding: 50px 0px;
+    text-align: -webkit-center;
+}
+
+.eventBlock {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+    display: table;
+    width: calc(100% - 40px);
+    margin: 0px 0px 40px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.eventBox {
+    padding: 20px;
+    background: #fff;
+    width: 100%;
+}
+
+.eventDesc {
+    align-items: center;
+}
+
+.eventTitle {
+    text-align: left;
+    font: Bold 20px/24px Lato;
+    letter-spacing: 0;
+    color: #000000;
+    margin: 0px;
+    padding: 0px 10px 0px 30px;
+}
+
+.eventStamp {
+    text-align: center;
+    font: bold 16px/19px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    border-right: 2px solid #7C7C7C;
+    /* width: 80px; */
+    padding: 13px 30px 13px 0px;
+}
+
+.secNameEvent{
+    text-align: left;
+    font: Bold 40px/34px Lato;
+    letter-spacing: 0;
+    color: #BB4D9A;
+}
+
+.secDescEvent{
+    text-align: left;
+    font: 26px/30px Lato;
+    letter-spacing: 0;
+    color: #BB4D9A;
+    opacity: 1;
+    display: block;
+    margin-top: 10px;
+}
+
+.accordion>.card:not(:first-of-type) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.accordion>.card:not(:last-of-type) {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .eventStamp{
+        padding: 0px 10px 0px 0px;
+        font: bold 14px/19px Lato;
+    }
+    .eventBox{
+        padding: 10px;
+    }
+    .eventTitle {
+        padding: 0px 10px 0px 10px;
+        font: Bold 14px/24px Lato;
+}
+.eventSec {
+    text-align: -webkit-center;
+}
+.eventBox {
+    
+    width: 330px;
+}
+.eventHeaderBtn {
+    width: 180px;
+    margin-bottom: 15px;
+}
+/* .saveBtn{
+    
+    
+   }
+   .cancelBtn{
+       width: 100px;
+   } */
+}
+/* .container {
+    margin: 50px auto 0;
+    width: 700px;
+  } */

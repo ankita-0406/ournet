@@ -1,0 +1,61 @@
+/**************** New Forum Page CSS ***********/
+.newForumSec {
+    position: relative;
+    padding: 50px 10px;
+    width: 750px;
+    /* margin: auto; */
+    margin-left: 200px;
+}
+.forumFieldBox{
+	margin-top:45px;
+}
+.forumFieldBox:first-child{
+	margin-top:0px;
+}
+.forumField {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    text-align: left;
+    font: 16px/16px Lato;
+    letter-spacing: 0;
+    padding: 15px 10px;
+    width: 100%;
+    transition: all 200ms ease-out;
+}
+.forumField:focus {
+    box-shadow: 0 0 8px rgba(2, 75, 153, 0.3);
+}
+.descField {
+    height: 345px;
+	resize:none;
+}
+.forumsaveBtn,.forumcancelBtn {
+    width: 341px;
+    height: 60px;
+    margin: 75px 25px 50px 25px;
+}
+
+@media only screen and (max-width:480px) {
+    .newForumSec {
+        margin-left: 0;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .newForumSec .box{
+        margin: 0;
+    }
+
+    .forumsaveBtn, .forumcancelBtn{
+        width: 100%;
+        margin: 0px 0 20px 0;
+    }
+    /* .forumField{
+        width: 41.5%;
+    } */
+    .top-margin{
+        margin: 0px 0 20px 0;
+    }
+
+}

@@ -1,0 +1,151 @@
+/****** Location Page Css ******/
+.locationSec {
+    padding: 50px 0px;
+}
+
+.locationSec>div {
+    margin: 20px auto;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+}
+
+.locInfo {
+    margin: 30px 0px 0px 0px;
+    text-align: left;
+    font: 16px/20px Lato;
+    letter-spacing: 0;
+    color: #000000;
+}
+
+.locationSearchBox {
+    position: relative;
+}
+
+input.locationSearchField {
+    width: 390px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 45px 0px 15px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.profile-location {
+    width: 390px;
+    margin-top: 25px;
+}
+
+.locationBox {
+    padding: 38px;
+    flex: 1;
+}
+
+.locBoxTitle {
+    font: Bold 25px/30px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.locfieldBox {
+    margin-top: 65px;
+}
+
+.locfieldBox:first-child {
+    margin-top: 0px;
+}
+
+label.fieldTitle {
+    text-align: left;
+    font: Bold 16px/22px Lato;
+    letter-spacing: 0;
+    color: #000000;
+    display: block;
+    margin-bottom: 12px;
+}
+
+input.locfield {
+    padding: 0px 20px;
+    height: 60px;
+    background: #f2f2f2;
+    border: none;
+    outline: none;
+    line-height: 60px;
+    width: 100%;
+    text-align: left;
+    font: 16px/28px Lato;
+    letter-spacing: 0;
+    color: #000000;
+    transition: all 200ms ease-out;
+}
+
+input.locfield:focus {
+    box-shadow: 0 0 8px rgba(2, 75, 153, 0.3);
+}
+
+.locrangeSlider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #BED1E6;
+    border-radius: 5px;
+    outline: none;
+}
+
+.locrangeSlider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #024B99;
+    border-radius: 50%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.locrangeSlider::-moz-range-thumb {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #024B99;
+    border-radius: 50%;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.locrangeSlider:focus {
+    outline: none;
+}
+
+span.limit {
+    text-align: left;
+    font: 16px/21px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    margin-top: 10px;
+}
+
+.mapBox {
+    flex: 1;
+}
+
+.locaddBtn, .locsaveBtn {
+    width: 341px;
+    height: 60px;
+    margin: 0px 25px 50px 25px;
+}
+  
+@media only screen and (max-width:480px) {
+
+.locationBox {
+    flex: auto;
+}
+
+.locsaveBtn, .locaddBtn {
+    width: 100%;
+    margin: 0px 0 50px 0;
+}
+
+}

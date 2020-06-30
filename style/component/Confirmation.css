@@ -1,0 +1,40 @@
+/****** Login Page CSS*******/
+.confirmNew{
+	display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	left: 0px;
+    right: 0px;
+    top: 0px;
+	bottom: 0px;
+	overflow:auto;
+}
+.confirmOuter{
+    position: relative;
+    display:table-cell;
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(0deg, #BED1E600 0%, #BED1E6BF 100%) 0% 0% no-repeat padding-box;
+}
+.confirmloginBox {
+    width: 100%;
+    padding: 20px;
+    max-width: 590px;
+	margin:auto
+}
+.confirmTitle{
+    text-align: center;
+    font: Regular 26px/30px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    opacity: 1;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+.confirmTitle > span{
+	display:block;
+	text-align: center;
+	font: Bold 16px/22px Lato;
+	letter-spacing: 0;
+}

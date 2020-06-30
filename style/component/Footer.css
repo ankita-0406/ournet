@@ -1,0 +1,111 @@
+/*********Footer Css***********/
+/* 
+* .upBtn {
+    background: #F9A61B;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 75px;
+    outline: none;
+}
+
+.upBtn:hover {
+    background-color: #000;
+}   */
+
+/* .footer-container {
+    padding: 50px;
+    background: transparent linear-gradient(180deg, #BED1E600 0%, #BED1E6BF 100%) 0% 0% no-repeat padding-box;
+    align-items: center;
+} */
+
+/* .footer-container>div {
+    min-height: 70px;
+    margin: 0px 20px;
+} */
+
+/* .footerlogo {
+    margin-left: 20px;
+} */
+
+/* start unnecessary code */
+ /* .newsletterField {
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+    font-family: inherit;                       
+    border: none;
+    padding: 12px 10px;
+    width: 208px;
+    outline: none;
+}
+
+ .nlSubmitBtn {
+    background: #024B99;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    color: #FFF;
+    outline: none;
+    width: 91px;
+    padding: 12px 10px;
+} */
+/* end unnecessary code */
+
+/* .footerBoxTitle {
+    font: bold 14px/17px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    margin-bottom: 10px;
+    display: block;
+} */
+
+
+/* .footerSocialBtn {
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .footerSocialIcon {
+    margin-right: 10px;
+    cursor: pointer;
+    font: 25px/0px Lato;
+    margin-right: 50px;
+    margin-top: 15px;
+} */
+
+/* .footerSocialIcon .fa-linkedin:hover { 
+    color:#0077b5
+} */
+/* .footerSocialIcon .fa-facebook:hover { 
+    color:#4267b2
+} */
+/* .footerSocialIcon .fa-instagram:hover { 
+    color:#9d1d96
+} */
+/* .footerSocialIcon .fa-twitter:hover { 
+    color:#5da9dd
+} */
+
+/* @media screen and (max-width: 480px) { */
+    /* .footerSocialIcon {
+        margin-right: 42px;
+    } */
+
+    /* .footer-container>div {
+        margin: 20px 0;
+    } */
+
+    /* .footer-container {
+        padding: 50px 35px;
+    } */
+    /* .footerBoxTitle {
+        text-align: center;
+    } */
+    /* .footerSocialBtn {
+        margin-left: 46px;
+    } */
+/* } */

@@ -1,0 +1,68 @@
+/*************** Search Result Page CSS ******************/
+.srchResultSec {
+    padding: 50px 0px;
+    position: relative;
+}
+.srchResultBlock {
+    padding: 20px;
+    margin: 30px 0px;
+    background: #024B9912 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+	flex: 0 0 30%;
+}
+.boxTitle {
+
+    text-align: left;
+    font: 12px/14px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+    text-transform: uppercase;
+
+}
+.srchResult {
+
+    padding: 15px 0px;
+    border-top: 1px solid #ccc;
+
+}
+.srchResult:first-child{
+	border-top:none;
+}
+.srchResult_Title {
+    cursor: pointer;
+    text-align: left;
+    font: 20px/28px Lato;
+    letter-spacing: 0;
+    color: #000000;
+
+}
+.srchResult .writer {
+    text-align: left;
+    font: Bold 12px/14px Lato;
+    letter-spacing: 0;
+    color: #A3A3A3;
+}
+.srchResult .date {
+    text-align: right;
+    font: 12px/14px Lato;
+    letter-spacing: 0;
+    color: #024B99;
+}
+.srchResultBtn {
+	cursor:pointer;
+    height: 60px;
+    background: #4FBFAE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    text-align: center;
+    font: Bold 16px/19px Lato;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    border: none;
+	margin-top:20px;
+}
+
+.search-header-box {
+    position: absolute;
+        right: 55px;
+        top: -10px;
+    }
